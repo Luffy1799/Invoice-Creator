@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoice Creator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="appCard">
+            <div class="header">
+                <h1>Invoice Creator</h1>
+                <p>Thanks for choosing our services!</p>
+            </div>
+            <div class="serviceBtns">
+                <button class="srvBtns" id="srv1"></button>
+                <button class="srvBtns" id="srv2"></button>
+                <button class="srvBtns" id="srv3"></button>
+            </div>
+            <div class="spaced">
+                <p>Task</p>
+                <p>Total</p>
+            </div>
+            <div class="taskList" id="taskList">
+                
+            </div>
+            <div class="line"></div>
+                <div class="spaced">
+                    <p>Notes</p>
+                    <p>Total Amount</p>
+                </div>
+                <div class="spaced">
+                    <p>We accept cash, credit card or PayPal</p>
+                    <h2 id="totalCost">$0</h2>
+                </div>
+                <button onclick="reset()" class="invoiceBtn">Send Invoice</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

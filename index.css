@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(20, 15, 49);
+}
+.header {
+    
+    text-align: center;
+    border-radius:30px 30px 0 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: aquamarine;
+    color: rgb(65, 36, 90);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+    margin: 10px auto;
+    height: 1px;
+    width: 340px;
+    background-color: cadetblue;
+    border-radius: 50px;
+}
+.appCard {
+    width: 400px;
+    
+    padding-bottom: 30px;
+    background-color: rgb(65, 36, 90);
+    box-shadow: 10px;
+    border-radius: 30px;
+    margin: auto auto;
+}
+.spaced {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.invoiceBtn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 0px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.serviceBtns {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.srvBtns {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    color: #000;
+    background-color: aquamarine;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+.taskLine {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: aqua;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.remove {
+    margin: 25px 10px;
+    font-size: 10px;
+}
+.flex {
+    display: flex;
+}
